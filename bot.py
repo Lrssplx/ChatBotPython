@@ -12,7 +12,7 @@ trainer.train(conversa)
 trainer.train(conversa2)
 
 while True:
-    quest = input('Ana e Larissa:')
+    quest = input('Larissa:')
     response = bot.get_response(quest)
     print('Pety:', response)
     
